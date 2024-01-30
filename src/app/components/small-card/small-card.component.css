@@ -1,0 +1,23 @@
+.small-card-container{
+  width: 100%;
+}
+.smaill-card-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-image > img{
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.small-card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separetor{
+  margin: 1rem 0;
+}
