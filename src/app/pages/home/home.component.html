@@ -5,11 +5,16 @@
 <app-menu-title></app-menu-title>
 <div class="articles-container">
   <div class="articles-main">
-    <app-big-card></app-big-card>
+    <app-big-card
+    cardImage="https://imgs.search.brave.com/ZDimxU0bjuQaQ_KDILX3Q4PbavG3FfUzj0Lcy7--jgU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNS8w/OS8wOS8yMi8wNy9p/cm9uLW1hbi05MzM3/MDlfNjQwLmpwZw"
+    cardTitle="Iron Man"
+    cardDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio expedita eos voluptatem earum ducimus saepe suscipit ullam aut aperiam iusto? Perferendis dicta illo tenetur corporis animi minus recusandae laboriosam ad."
+    ></app-big-card>
   </div>
   <div class="articles-others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card *ngFor="let item of listSmallCards"
+    cardImage="{{item.image_url}}"
+    cardTitle="{{item.title}}"
+    ></app-small-card>
   </div>
 </div>
