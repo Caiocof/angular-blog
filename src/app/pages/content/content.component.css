@@ -1,0 +1,25 @@
+.content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  border: solid 1px wheat;
+  width: 100%;
+  height: 100%;
+}
+
+.content-cover>img{
+  border: solid .3rem rgb(144, 144, 144);
+  border-radius: 1.5rem;
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+}
+.content-description{
+  margin: 1rem 0;
+}
+.content-description > p{
+  color: rgb(198, 197, 197);
+}
