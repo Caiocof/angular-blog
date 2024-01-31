@@ -1,0 +1,7 @@
+@media only screen and (max-width: 700px) {
+  .small-card-container{
+    margin: auto;
+    width: 80%;
+  }
+}
+
